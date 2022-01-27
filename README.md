@@ -23,8 +23,8 @@ is possible with this library :
 - Analyze witch .md extension;
 - Check if there is any links in the MarkDown file, otherwise report an error message warning
 that there are no links in the file .
-- Finding the links there are an option and list or check them out
-using the 'validar' function, which return an array with the links and ther http status.
+- when Finding the links there's  an option to list or check them
+using the 'validar' function, which returns a set with the links and ther http status.
 
 ## Install
 In the terminal, run the command:
