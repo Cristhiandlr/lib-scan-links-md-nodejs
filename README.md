@@ -26,7 +26,7 @@ that there are no links in the file .
 - Finding the links there are an option and list or check them out
 using the 'validar' function, which return an array with the links and ther http status.
 
-##Install
+## Install
 In the terminal, run the command:
 'npm i scan-links'
 Use this way command to run in terminal:
