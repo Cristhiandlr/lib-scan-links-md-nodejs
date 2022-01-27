@@ -1,0 +1,34 @@
+{
+  "name": "scan-links",
+  "version": "1.0.0",
+  "description": "A library to check if your link is working properly",
+  "main": "cli.js",
+  "type": "commonjs",
+  "bin": {
+    "scan-links": "scan-links"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node ./src/cli.js"
+  },
+  "keywords": [
+    "scan",
+    "URL",
+    "links",
+    "verify"
+  ],
+  "author": "Cristhian Daniel Lima Rocha",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.2.0",
+    "scan-links": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
+  "bugs": {
+    "email": "cristhian.limarocha@gmail.com"
+  }
+}
