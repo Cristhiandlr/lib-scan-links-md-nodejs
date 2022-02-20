@@ -10,15 +10,6 @@ find files with this format in any repository (starting with the traditional 'RE
 'Markdown' files usually contain_links_ which may be broken or that are no longer 
 valid, decreasing the value of the information conntained.
 
-Com esta lib é possivel:
-- analisar arquivo com extensão .md;
-- verificar se há links no arquivo markdown;
-- nao encontrando, emitir msg avisando que não há links;
-- caso encontre links, analisar se os links funcionam;
-- retornar lista com os links identificados;
-- retornar com o status http de cada link encontrado;
-
-
 is possible with this library :
 - Analyze witch .md extension;
 - Check if there is any links in the MarkDown file, otherwise report an error message warning
